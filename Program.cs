@@ -7,15 +7,24 @@ namespace MyConsoleApplication
         public static void Main(string[] args)
         {
             string userName;
-            short userAge;
-            double outsideDegrees;
-            int coinsValue;
-            bool needMoreGold;
-            float vehicleSpeed;
-            uint numberOfMobs;
-            char letter;
-            long distanceToPoint;
-            ushort positionY;
+            string userZodiac;
+            string userAge;
+            string userWork;
+
+            Console.WriteLine("Имя твоё какое будет?");
+            userName = Console.ReadLine();
+
+            Console.WriteLine("Под каким созвездем на свет вылез?");
+            userZodiac = Console.ReadLine();
+            
+            Console.WriteLine("Сколько зим видывал?");
+            userAge = Console.ReadLine();
+            
+            Console.WriteLine("На какой галере трудишься?");
+            userWork = Console.ReadLine();
+
+            Console.WriteLine($"Имя твое: {userName},\nЗнак твой: {userZodiac},\n" +
+                              $"Годиков тебе: {userAge},\nГалера твоя: {userWork}");
         }
     }
 }
