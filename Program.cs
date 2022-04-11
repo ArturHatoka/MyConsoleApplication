@@ -6,10 +6,16 @@ namespace MyConsoleApplication
     {
         public static void Main(string[] args)
         {
-            string userName = "A_Hatoka";
-            string userWallet = "leather wallet";
-            int coins = 100;
-            Console.WriteLine($"{userName} have {coins} in {userWallet}");
+            string userName;
+            short userAge;
+            double outsideDegrees;
+            int coinsValue;
+            bool needMoreGold;
+            float vehicleSpeed;
+            uint numberOfMobs;
+            char letter;
+            long distanceToPoint;
+            ushort positionY;
         }
     }
 }
